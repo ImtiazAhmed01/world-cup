@@ -1,0 +1,39 @@
+/* Banner style  */
+.banner {
+    color: white;
+    display: flex;
+    margin: 50px 140px 130px 150px;
+    width: 75%;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 70px;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+
+.title-details {
+    margin-top: 20px;
+    margin-left: 111px;
+}
+
+.live-button {
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 111px;
+
+}
+
+.banner-image {
+    width: 900px;
+    height: 613px;
+    margin: 150px;
+}
