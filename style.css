@@ -2,7 +2,7 @@
 .banner {
     color: white;
     display: flex;
-    margin: 50px 140px 130px 150px;
+    margin: 50px 120px 130px 150px;
     width: 75%;
     height: 646px;
     background-color: #161616;
@@ -36,4 +36,72 @@
     width: 900px;
     height: 613px;
     margin: 150px;
+}
+
+/* body style */
+
+.body {
+    display: flex;
+}
+
+.page-links {
+    background: #161616;
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 150px;
+}
+
+.link {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 222px;
+    height: 64px;
+    left: 170px;
+    top: 856px;
+    /* margin: 20px; */
+    /* height: 35px; */
+    text-align: center;
+    justify-content: center;
+}
+
+.current-link {
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px;
+    background: #DD0000;
+    border-radius: 10px;
+}
+
+/* article */
+.blog {
+    margin-left: 95px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 312px;
+    height: 362px;
+    margin-bottom: 130px;
+
+}
+
+.transfer {
+    border: 1px solid black;
+    width: 55px;
+    height: 20px;
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hour-chat {
+    margin-left: -220px;
 }
