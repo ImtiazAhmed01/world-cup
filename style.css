@@ -21,7 +21,7 @@
     margin-left: 111px;
 }
 
-.live-button {
+.button {
     color: white;
     background-color: #DD0000;
     border-radius: 5px;
@@ -29,7 +29,6 @@
     gap: 10px;
     margin-top: 50px;
     margin-left: 111px;
-
 }
 
 .banner-image {
@@ -40,36 +39,39 @@
 
 /* body style */
 
-.body {
+.main {
     display: flex;
+
 }
 
 .page-links {
     background: #161616;
     border-radius: 10px;
-    height: 250px;
     margin-left: 150px;
+    height: 350px;
 }
 
 .link {
     background: #FFFFFF;
     border-radius: 5px;
+    margin: 30px;
     width: 222px;
-    height: 64px;
+    height: 50px;
     left: 170px;
-    top: 856px;
-    /* margin: 20px; */
-    /* height: 35px; */
     text-align: center;
-    justify-content: center;
+    padding-top: 25px;
 }
 
 .current-link {
+    color: white;
+    border-radius: 5px;
+    margin: 30px;
+    width: 222px;
+    height: 50px;
+    left: 170px;
+    padding-top: 25px;
     text-align: center;
-    color: #FFFFFF;
-    margin: 20px;
-    background: #DD0000;
-    border-radius: 10px;
+    background-color: #DD0000;
 }
 
 /* article */
@@ -104,4 +106,16 @@
 
 .hour-chat {
     margin-left: -220px;
+}
+
+#tab {
+    display: none;
+}
+
+footer {
+    display: block;
+    margin-bottom: 0px;
+    background-color: #161616;
+    color: white;
+
 }
