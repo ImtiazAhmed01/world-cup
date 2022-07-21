@@ -195,7 +195,6 @@ footer h1 {
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
-        display: inline;
     }
 
     .banner {
@@ -236,7 +235,6 @@ footer h1 {
         margin-right: 0px;
         height: 25%;
         align-content: center;
-        /* margin-right: 200px; */
     }
 
     .blog {
@@ -249,8 +247,7 @@ footer h1 {
     }
 
     footer {
-        display: block;
-        width: 100%;
+        display: block width: 100%;
         margin-top: 2600px;
         height: 1000px;
     }
@@ -265,10 +262,78 @@ footer h1 {
     .social-icon {
         display: block;
         margin-top: 100px;
-        margin-left: 100px;
+        margin-left: 80px;
         background-color: #161616;
         color: #E8E8E8;
+        font-size: 35px;
+    }
+}
+
+/* Tablet Device */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header .main {
+        width: 100%;
     }
 
+    .banner {
+        display: flex;
+        width: 100%;
+        margin-left: -10px;
+    }
 
+    .title {
+        font-size: 30px;
+    }
+
+    .banner-image {
+        width: 830px;
+        height: 1000px;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .page-links {
+        display: flex;
+        background-color: white;
+        margin-left: 150px;
+    }
+
+    .current-link {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #tab {
+        display: flex;
+        margin-top: 400px;
+    }
+
+    .tab-hide {
+        display: none;
+    }
+
+    footer {
+        display: block;
+        width: 100%;
+        margin-top: 200px;
+        height: 700px;
+
+    }
+
+    .privacy-option {
+        margin-left: 200px;
+        padding: 3px;
+    }
+
+    .social-icon {
+        margin-left: 100px;
+    }
 }
